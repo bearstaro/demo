@@ -12,6 +12,15 @@
 		F812E20119A37320006B1A39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F812E1FF19A37320006B1A39 /* Main.storyboard */; };
 		F812E20319A37320006B1A39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F812E20219A37320006B1A39 /* Images.xcassets */; };
 		F812E20F19A37320006B1A39 /* demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F812E20E19A37320006B1A39 /* demoTests.swift */; };
+		F81704A619A88B7F00E2273F /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81704A519A88B7F00E2273F /* detailViewController.swift */; };
+		F81704A919A8922200E2273F /* map.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F81704A819A8922200E2273F /* map.tiff */; };
+		F882F2E119A9B9F1009E5253 /* date.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F882F2DD19A9B9F1009E5253 /* date.tiff */; };
+		F882F2E219A9B9F1009E5253 /* passager.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F882F2DE19A9B9F1009E5253 /* passager.tiff */; };
+		F882F2E319A9B9F1009E5253 /* pay.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F882F2DF19A9B9F1009E5253 /* pay.tiff */; };
+		F882F2E419A9B9F1009E5253 /* repeat.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F882F2E019A9B9F1009E5253 /* repeat.tiff */; };
+		F882F2E619A9BC43009E5253 /* button.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F882F2E519A9BC43009E5253 /* button.tiff */; };
+		F882F2E819A9BD27009E5253 /* button2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F882F2E719A9BD27009E5253 /* button2.tiff */; };
+		F882F2EC19A9C301009E5253 /* UIViewController+BackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F882F2EB19A9C301009E5253 /* UIViewController+BackButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,17 @@
 		F812E20819A37320006B1A39 /* demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F812E20D19A37320006B1A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F812E20E19A37320006B1A39 /* demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoTests.swift; sourceTree = "<group>"; };
+		F81704A519A88B7F00E2273F /* detailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		F81704A819A8922200E2273F /* map.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = map.tiff; sourceTree = "<group>"; };
+		F882F2DD19A9B9F1009E5253 /* date.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = date.tiff; sourceTree = "<group>"; };
+		F882F2DE19A9B9F1009E5253 /* passager.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = passager.tiff; sourceTree = "<group>"; };
+		F882F2DF19A9B9F1009E5253 /* pay.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = pay.tiff; sourceTree = "<group>"; };
+		F882F2E019A9B9F1009E5253 /* repeat.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = repeat.tiff; sourceTree = "<group>"; };
+		F882F2E519A9BC43009E5253 /* button.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = button.tiff; sourceTree = "<group>"; };
+		F882F2E719A9BD27009E5253 /* button2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = button2.tiff; sourceTree = "<group>"; };
+		F882F2E919A9C300009E5253 /* demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		F882F2EA19A9C301009E5253 /* UIViewController+BackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButton.h"; sourceTree = "<group>"; };
+		F882F2EB19A9C301009E5253 /* UIViewController+BackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButton.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,11 +95,16 @@
 		F812E1F819A37320006B1A39 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				F882F2EA19A9C301009E5253 /* UIViewController+BackButton.h */,
+				F882F2EB19A9C301009E5253 /* UIViewController+BackButton.m */,
+				F81704A719A8920A00E2273F /* images */,
 				F812E1FB19A37320006B1A39 /* AppDelegate.swift */,
 				F812E1FD19A37320006B1A39 /* ViewController.swift */,
+				F81704A519A88B7F00E2273F /* detailViewController.swift */,
 				F812E1FF19A37320006B1A39 /* Main.storyboard */,
 				F812E20219A37320006B1A39 /* Images.xcassets */,
 				F812E1F919A37320006B1A39 /* Supporting Files */,
+				F882F2E919A9C300009E5253 /* demo-Bridging-Header.h */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -107,6 +132,20 @@
 				F812E20D19A37320006B1A39 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F81704A719A8920A00E2273F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F882F2E719A9BD27009E5253 /* button2.tiff */,
+				F882F2E519A9BC43009E5253 /* button.tiff */,
+				F882F2DD19A9B9F1009E5253 /* date.tiff */,
+				F882F2DE19A9B9F1009E5253 /* passager.tiff */,
+				F882F2DF19A9B9F1009E5253 /* pay.tiff */,
+				F882F2E019A9B9F1009E5253 /* repeat.tiff */,
+				F81704A819A8922200E2273F /* map.tiff */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,7 +228,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F81704A919A8922200E2273F /* map.tiff in Resources */,
+				F882F2E219A9B9F1009E5253 /* passager.tiff in Resources */,
+				F882F2E419A9B9F1009E5253 /* repeat.tiff in Resources */,
 				F812E20119A37320006B1A39 /* Main.storyboard in Resources */,
+				F882F2E319A9B9F1009E5253 /* pay.tiff in Resources */,
+				F882F2E119A9B9F1009E5253 /* date.tiff in Resources */,
+				F882F2E619A9BC43009E5253 /* button.tiff in Resources */,
+				F882F2E819A9BD27009E5253 /* button2.tiff in Resources */,
 				F812E20319A37320006B1A39 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,7 +255,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F812E1FE19A37320006B1A39 /* ViewController.swift in Sources */,
+				F882F2EC19A9C301009E5253 /* UIViewController+BackButton.m in Sources */,
 				F812E1FC19A37320006B1A39 /* AppDelegate.swift in Sources */,
+				F81704A619A88B7F00E2273F /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,9 +373,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "demo/demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -336,9 +387,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "demo/demo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -395,6 +448,7 @@
 				F812E21419A37320006B1A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F812E21519A37320006B1A39 /* Build configuration list for PBXNativeTarget "demoTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +457,7 @@
 				F812E21719A37320006B1A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
