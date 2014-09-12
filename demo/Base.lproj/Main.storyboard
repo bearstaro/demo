@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6205" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bO4-r3-nA9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.11" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bO4-r3-nA9">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6198"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6190.4"/>
     </dependencies>
     <scenes>
         <!--快拼车-->
@@ -188,7 +188,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bYl-im-VFm" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="JsG-al-PzU" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="911" y="9"/>
+            <point key="canvasLocation" x="3094.5" y="-213"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GQh-P9-V3A">
@@ -235,7 +235,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xb7-CG-gby" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="BIp-Ma-ZqZ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1390" y="747"/>
+            <point key="canvasLocation" x="1173" y="939"/>
         </scene>
         <!--test-->
         <scene sceneID="afe-gg-PCV">
@@ -357,7 +357,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CYV-Sn-B6a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="437" y="747"/>
+            <point key="canvasLocation" x="-583.5" y="915"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IzO-1m-2sF">
@@ -408,7 +408,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EqM-e1-nLe" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="X2A-6O-kAJ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="911" y="747"/>
+            <point key="canvasLocation" x="2242.5" y="2175"/>
         </scene>
         <!--搜索结果-->
         <scene sceneID="Y8V-kH-68R">
@@ -449,7 +449,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nWW-BZ-H2i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="437" y="1463"/>
+            <point key="canvasLocation" x="-1915.5" y="2530.5"/>
         </scene>
         <!--聊天-->
         <scene sceneID="nR5-pb-JVB">
@@ -530,7 +530,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="53W-hG-1Ly" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="lVm-mN-xL9" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="911" y="2350"/>
+            <point key="canvasLocation" x="334.5" y="3885"/>
         </scene>
         <!--地图-->
         <scene sceneID="tBf-pa-aoO">
@@ -585,7 +585,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7s8-8d-y1g" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="1PP-9v-B20" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="429" y="2350"/>
+            <point key="canvasLocation" x="-1344" y="3873"/>
         </scene>
         <!--订单详情-->
         <scene sceneID="Wj5-Dc-z8l">
@@ -610,7 +610,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eHB-WZ-FWQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="911" y="1463"/>
+            <point key="canvasLocation" x="-805.5" y="2518.5"/>
         </scene>
         <!--档案-->
         <scene sceneID="0Qz-vp-U7p">
@@ -716,7 +716,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5I5-D7-5Er" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="kUD-Lj-U2s" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1390" y="2350"/>
+            <point key="canvasLocation" x="1389" y="2757"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BWr-KW-b4q">
@@ -734,7 +734,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vzH-Qy-2UD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-95" y="9"/>
+            <point key="canvasLocation" x="-1404" y="-27"/>
         </scene>
     </scenes>
     <resources>
@@ -747,7 +747,7 @@
         <image name="repeat.tiff" width="54" height="53"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="mrV-sN-LnQ"/>
-        <segue reference="oDC-he-4IK"/>
+        <segue reference="Ism-yl-dEo"/>
+        <segue reference="vPI-YN-P3X"/>
     </inferredMetricsTieBreakers>
 </document>
